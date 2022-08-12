@@ -1,6 +1,8 @@
 import mysql.connector
 
+
 class Author:
+
     def __init__(self, cursor_param):
         self.cursor = cursor_param
 
